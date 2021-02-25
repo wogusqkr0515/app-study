@@ -1,0 +1,53 @@
+.sample {
+  background-color: white;
+  width: 40%;
+  height: 60vh;
+  margin: auto;
+  margin-top: 15vh;
+}
+header {
+  background-color: #9ccc65;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+header h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 250%;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+i {
+  color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+main div {
+  height: 50%;
+}
+.select {
+  background-color: darkgray;
+  position: relative;
+}
+.spot-list {
+  background-color: beige;
+}
+.icon-box {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  background-color: #9ccc65;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
